@@ -1,6 +1,6 @@
 # nuxt-typescript-template
 
-Includes typescript runtime, pug, sass, tailwindcss, jest and eslint/prettier config.
+Includes typescript runtime, nuxt composition api, pug, sass, tailwindcss, jest and eslint/prettier config.
 
 ## Build Setup
 
