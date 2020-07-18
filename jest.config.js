@@ -3,6 +3,7 @@ module.exports = {
     '^@/(.*)$': '<rootDir>/$1',
     '^~/(.*)$': '<rootDir>/$1',
     '^vue$': 'vue/dist/vue.common.js',
+    'nuxt-composition-api': 'nuxt-composition-api/lib/cjs/entrypoint.js',
   },
   moduleFileExtensions: ['ts', 'js', 'vue', 'json'],
   transform: {
@@ -15,4 +16,4 @@ module.exports = {
     '<rootDir>/components/**/*.vue',
     '<rootDir>/pages/**/*.vue',
   ],
-}
+};

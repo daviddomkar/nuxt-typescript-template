@@ -1,4 +1,6 @@
-export default {
+import { NuxtConfig } from '@nuxt/types';
+
+const config: NuxtConfig = {
   mode: 'universal',
 
   target: 'server',
@@ -21,7 +23,7 @@ export default {
 
   plugins: [],
 
-  components: true,
+  components: [{ path: '@/components', prefix: 'ntt' }],
 
   buildModules: [
     '@nuxt/typescript-build',
@@ -33,4 +35,6 @@ export default {
   modules: ['@nuxtjs/pwa'],
 
   build: {},
-}
+};
+
+export default config;
