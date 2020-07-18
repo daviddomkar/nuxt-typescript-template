@@ -26,10 +26,10 @@ const config: NuxtConfig = {
   components: [{ path: '@/components', prefix: 'ntt' }],
 
   buildModules: [
+    '@nuxtjs/eslint-module',
     '@nuxt/typescript-build',
-    '@nuxt/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
+    'nuxt-composition-api',
   ],
 
   modules: ['@nuxtjs/pwa'],

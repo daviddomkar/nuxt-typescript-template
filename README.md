@@ -1,5 +1,7 @@
 # nuxt-typescript-template
 
+Includes typescript runtime, pug, sass, jest and eslint/prettier config.
+
 ## Build Setup
 
 ```bash
