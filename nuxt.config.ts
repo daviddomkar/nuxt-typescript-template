@@ -29,6 +29,7 @@ const config: NuxtConfig = {
     '@nuxtjs/eslint-module',
     '@nuxt/typescript-build',
     '@nuxtjs/stylelint-module',
+    '@nuxtjs/tailwindcss',
     'nuxt-composition-api',
   ],
 

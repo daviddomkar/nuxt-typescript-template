@@ -9,6 +9,7 @@
     "pkief.material-icon-theme",
     "eamodio.gitlens",
     "aaron-bond.better-comments",
+    "bradlc.vscode-tailwindcss",
     "editorconfig.editorconfig",
     "syler.sass-indented"
   ]
