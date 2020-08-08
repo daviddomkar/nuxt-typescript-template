@@ -6,16 +6,15 @@
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "export": "nuxt-ts export",
-    "serve": "nuxt-ts serve",
+    "generate": "nuxt-ts generate",
     "lint:js": "eslint --ext .js,.ts,.vue --ignore-path .gitignore . --fix",
     "lint:style": "stylelint **/*.{vue,sass,scss,css} --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
     "test": "jest"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint",
-    "*.{css,sass,scss,vue}": "stylelint"
+    "*.{js,ts,vue}": "eslint --ignore-path .gitignore",
+    "*.{css,sass,scss,vue}": "stylelint --ignore-path .gitignore"
   },
   "husky": {
     "hooks": {
